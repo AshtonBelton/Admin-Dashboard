@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!-- Dashboard -->
+    <nav class="dashboard">
+        <div class="dashboard-content">
+            <h1><i class='bx bxs-dashboard'></i>Dashboard</h1>
+            <h3 id="first"><i class='bx bx-home'></i>Home</h3>
+            <h3><i class='bx bx-male-female'></i>Profile</h3>
+            <h3><i class='bx bx-message'></i>Mesages</h3>
+            <h3><i class='bx bx-history'></i>History</h3>
+            <h3><i class='bx bx-task'></i>Tasks</h3>
+            <h3><i class='bx bx-envelope'></i>Communities</h3>
+            <br>
+            <br>
+            <h3><i class='bx bx-cog'></i>Settings</h3>
+            <h3><i class='bx bx-support'></i>Support</h3>
+            <h3><i class='bx bxs-bank'></i>Privacy</h3>
+        </div>
+    </nav>
+
+    <!-- Nav Bar -->
+    <div class="header">
+        <div class="header-sec1">
+            <div class="header-subsection">
+                <form action="#handler" method="get" class="searchbar" id="searchbar">
+                    <i id="search-icon" class='bx bx-search'></i>
+                    <input type="search" name="search" id="search">
+                </form>
+            </div>
+
+            <div class="header-subsection">
+                <i id="header-icon" class='bx bxs-bell-ring'></i>
+                <img class="header-user-icon" src="images/img1.svg" alt="User profile">
+                </i><h3>Kobe Bryant</h3>
+            </div>
+        </div>
+
+        <div class="header-sec2">
+            <div class="header-subsection">
+                <img class="header-user-icon" src="images/img1.svg" alt="User profile">
+
+                <div class="header-sec2-text">
+                    <p>Hi there,</p>
+                    <h2>Kobe Bryant (@Goat)</h2>
+                </div>
+            </div>
+
+            <div class="header-subsection">
+                <button type="button" class="header-btn">New</button>
+                <button type="button" class="header-btn">Upload</button>
+                <button type="button" class="header-btn">Share</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="main-content">
+            <div class="projects">
+                <h3>Your Projects</h3>
+                <div class="project">
+                    <div class="project-card">
+                        <div class="project-text">
+                            <h5>The Best Website</h5>
+                            <p>A project showcasing a cool way to design your webpages, using html, css and javascript.</p>
+                        </div>
+                        <div class="project-nav">
+                            <img src="images/star.svg" alt="star" class="project-icon">
+                            <img src="images/eye.svg" alt="eye" class="project-icon">
+                            <img src="images/fork.svg" alt="fork" class="project-icon">
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-text">
+                            <h5>A Simple One</h5>
+                            <p>A small but less time consuming project that doesn't have a lot of features but still gets the job done.</p>
+                        </div>
+                        <div class="project-nav">
+                            <img src="images/star.svg" alt="star" class="project-icon">
+                            <img src="images/eye.svg" alt="eye" class="project-icon">
+                            <img src="images/fork.svg" alt="fork" class="project-icon">
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-text">
+                            <h5>Hardest Game Ever</h5>
+                            <p>This is a game that is about an impossible game to beat. No one can beat it!</p>
+                        </div>
+                        <div class="project-nav">
+                            <img src="images/star.svg" alt="star" class="project-icon">
+                            <img src="images/eye.svg" alt="eye" class="project-icon">
+                            <img src="images/fork.svg" alt="fork" class="project-icon">
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-text">
+                            <h5>The Greatest App</h5>
+                            <p>This is the greatest app ever made. It has everything you ever dreamt of.</p>
+                        </div>
+                        <div class="project-nav">
+                            <img src="images/star.svg" alt="star" class="project-icon">
+                            <img src="images/eye.svg" alt="eye" class="project-icon">
+                            <img src="images/fork.svg" alt="fork" class="project-icon">
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-text">
+                            <h5>Basketball Game</h5>
+                            <p>Pick your starting five and go against the greatest team ever assembled.</p>
+                        </div>
+                        <div class="project-nav">
+                            <img src="images/star.svg" alt="star" class="project-icon">
+                            <img src="images/eye.svg" alt="eye" class="project-icon">
+                            <img src="images/fork.svg" alt="fork" class="project-icon">
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-text">
+                            <h5>I Love You</h5>
+                            <p>I just wannt say I love you and I am so proud of you! You're doing amazing.</p>
+                        </div>
+                        <div class="project-nav">
+                            <img src="images/star.svg" alt="star" class="project-icon">
+                            <img src="images/eye.svg" alt="eye" class="project-icon">
+                            <img src="images/fork.svg" alt="fork" class="project-icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="announcements">
+                <div class="a-container">
+                    <h3>Announcements</h3>
+                    <div class="a-content">
+                        <div class="a-text">
+                            <h5>Site Maintenance</h5>
+                            <p>The site will go under maintenance two weeks from now. Make sure everything is saved!</p>
+                        </div>
+                        <div class="a-text">
+                            <h5>Community Share Day</h5>
+                            <p>Here you can share any of your projects to others within the community</p>
+                        </div>
+                        <div class="a-text">
+                            <h5>Updated Privacy Policy</h5>
+                            <p>Here you can ready our policy. If you have any questions feel free to email us.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trending">
+                <h3>Trending</h3>
+                <div class="trending-content">
+                    <div class="trending-p">
+                        <img src="images/profile.svg" alt="user profile">
+                        <p class="trending-user">@Lebron</p>
+                        <p class="trending-title">The King</p>
+                    </div>
+                    <div class="trending-p">
+                        <img src="images/profile2.svg" alt="user profile">
+                        <p class="trending-user">@Jordan</p>
+                        <p class="trending-title">Black Cat</p>
+                    </div>
+                    <div class="trending-p">
+                        <img src="images/profile3.svg" alt="user profile">
+                        <p class="trending-user">@Magic</p>
+                        <p class="trending-title">The Point</p>
+                    </div>
+                    <div class="trending-p">
+                        <img src="images/profile.svg" alt="user profile">
+                        <p class="trending-user">@Kareem</p>
+                        <p class="trending-title">The hook shot</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
